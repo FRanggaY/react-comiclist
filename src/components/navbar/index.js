@@ -80,8 +80,7 @@ const MobileNavButton = styled.button`
 const NavList = styled.div`
     display: flex;
     @media screen and (max-width: 576px){
-        display: flex;
-        opacity: ${props => props.clicked?"1" : "0"};
+        display: ${props => props.clicked?"flex" : "none"};
         transition: all 0.5s ease;
         flex-direction: column;
         background: var(--color-white);
