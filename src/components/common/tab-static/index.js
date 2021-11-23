@@ -24,6 +24,10 @@ const TabBody = styled.div`
         border-color: var(--color-primary);
     }
 
+    @media screen and (max-width: 576px){
+        flex-wrap: wrap;
+    }
+
 `; 
 
 function Tab() {

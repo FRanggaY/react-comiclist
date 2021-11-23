@@ -73,23 +73,8 @@ function Aside() {
                 />
                 
             </Tops>
+            
             <CardGenre />
-
-            {/* <div className="genre">
-                <div className="heading">
-                    <h4>Genre :</h4>
-                </div>
-                <div className="genre-body">
-                    <div className="genres">
-                        <div className="genre btn btn-primary">Action</div>
-                        <div className="genre btn btn-primary">Isekai</div>
-                        <div className="genre btn btn-primary">Adventure</div>
-                        <div className="genre btn btn-primary">Reincarnation</div>
-                        <div className="genre btn btn-primary">Drama</div>
-                        <div className="genre btn btn-primary">School</div>
-                    </div>
-                </div>
-            </div> */}
 
         </Right>
     )

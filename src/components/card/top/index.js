@@ -6,6 +6,7 @@ const Top = styled.div`
     gap: 1rem;
     margin-bottom: 1rem;
     align-items: start;
+    flex-wrap: wrap;
 `;
 const TopCategory = styled.div`
     img{
