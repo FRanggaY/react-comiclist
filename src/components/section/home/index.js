@@ -2,10 +2,10 @@ import React from 'react';
 // import './section.css';
 import styled from 'styled-components';
 
-import Gap from '../atom/gap';
+import Gap from '../../atom/gap';
 
-import CardPopular from '../card/popular';
-import CardComic from '../card/comic';
+import CardPopular from '../../card/popular';
+import CardComic from '../../card/comic';
 
 const Middle = styled.div`
     padding-left: 1rem;
@@ -37,7 +37,7 @@ const Comics = styled.div`
 
 `;
 
-function Section() {
+function HomeSection() {
     return (
         <Middle>
             <Gap width={10} height={20} />
@@ -92,4 +92,4 @@ function Section() {
     )
 }
 
-export default Section;
+export default HomeSection;

@@ -1,6 +1,10 @@
 import Aside from './aside';
 import Navbar from './navbar';
-import Section from './section';
 import Sidebar from './sidebar';
 
-export { Aside, Navbar, Section, Sidebar };
+
+import HomeSection from './section/home';
+
+
+
+export { Aside, Navbar, HomeSection, Sidebar };

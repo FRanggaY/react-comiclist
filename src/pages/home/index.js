@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Navbar, Sidebar, Section, Aside } from '../../components';
+import { Navbar, Sidebar, HomeSection, Aside } from '../../components';
 
 class Home extends Component {
     render() {
@@ -9,7 +9,7 @@ class Home extends Component {
                 <main>
                     <div className="container">
                         <Sidebar />
-                        <Section />
+                        <HomeSection />
                         <Aside />
                     </div>
                 </main>
