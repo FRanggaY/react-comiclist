@@ -4,7 +4,8 @@ import Sidebar from './sidebar';
 
 
 import HomeSection from './section/home';
+import SettingsSection from './section/settings';
 
 
 
-export { Aside, Navbar, HomeSection, Sidebar };
+export { Aside, Navbar, HomeSection, Sidebar, SettingsSection };
