@@ -6,13 +6,18 @@ const Top = styled.div`
     gap: 1rem;
     margin-bottom: 1rem;
     align-items: start;
-    flex-wrap: wrap;
 `;
 const TopCategory = styled.div`
     img{
         width: 6rem;
         height: 100%;
         border-radius: var(--card-border-radius);
+
+        @media screen and (max-width: 576px){
+            width: 5rem;
+            height: 80%;
+        }
+
     }
 `;
 const TopCategoryBody = styled.div`
