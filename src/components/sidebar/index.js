@@ -24,8 +24,7 @@ const SidebarLists = styled.div`
     background: var(--color-white);
     border-radius: var(--card-border-radius);
     @media screen and (max-width: 576px){
-        opacity: ${props => props.clickedSidebar?"1" : "0"};
-        transition: all 0.5s ease;
+        visibility: ${props => props.clickedSidebar?"visible" : "hidden"};
         width: 3rem;
     }
 
@@ -60,6 +59,8 @@ const MobileNavButton = styled.button`
     position: relative;
 
     @media screen and (max-width: 576px){
+        position: fixed;
+        top: 30rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -77,6 +78,16 @@ const MenuItem = styled(NavLink)`
 
     &:hover{
         background: var(--color-light);
+
+        :first-child{
+            border-top-left-radius: var(--card-border-radius);
+            border-top-right-radius: var(--card-border-radius);
+        }
+        :last-child{
+            border-bottom-left-radius: var(--card-border-radius);
+            border-bottom-right-radius: var(--card-border-radius);
+        }
+
     }
 
     i{
