@@ -10,6 +10,11 @@ const SearchBar = styled.div`
     display: -ms-flexbox;
     justify-content: center;
     align-items: center;
+
+    i{
+        color: black;
+    }
+
 `;
 const SearchInput = styled.input`
     padding: 1rem 0;
