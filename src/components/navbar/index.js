@@ -9,7 +9,6 @@ import Gap from '../atom/gap';
 /* Navbar */
 const Nav = styled.nav`
     width: 100%;
-    background: var(--color-white);
     padding: 0.7rem 0;
     position: fixed;
     top: 0;
