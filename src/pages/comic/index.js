@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Navbar, Sidebar, ComicSection } from '../../components';
 
-class Settings extends Component {
+class Comic extends Component {
     render() {
         return (
             <Fragment>
@@ -17,4 +17,4 @@ class Settings extends Component {
     }
 }
 
-export default Settings;
+export default Comic;
