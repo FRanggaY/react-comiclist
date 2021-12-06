@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 const Comic = styled.div`
     background: var(--color-white);
@@ -85,7 +86,7 @@ function CardComic({title, category, img, score}) {
     return (
         <Comic>
             <ComicHead>
-                <a href="test">{title}</a>
+                <NavLink to="/comic/jujutsu-kaisen">{title}</NavLink>
             </ComicHead>
             <ComicInfo>
                 <div>{category}</div>

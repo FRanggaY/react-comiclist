@@ -1,7 +1,6 @@
 import React, {Fragment, Component} from 'react';
 import { BrowserRouter as Router , Routes as Switch, Route } from 'react-router-dom';
-import { Home } from '../../pages';
-import { Settings } from '../../pages';
+import { Home, Settings, Comic } from '../../pages';
 import {connect} from 'react-redux';
 import {LightGlobalStyles, DarkGlobalStyles} from '../../theme';
 
@@ -16,6 +15,7 @@ class Routes extends Component {
                     <Switch>
                         <Route path="/" element={<Home/>}></Route>
                         <Route path="/settings" element={<Settings/>}></Route>
+                        <Route path="/comic/jujutsu-kaisen" element={<Comic/>}></Route>
                     </Switch>
                 </Router>
             </Fragment>
